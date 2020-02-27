@@ -1,0 +1,54 @@
+html {
+  background-color: #083c4a;
+}
+
+h1 {
+  font-family: monospace;
+  color: #ff7800;
+}
+h2 {
+  font-family: monospace;
+  color: #c85400;
+}
+#file-list > li {
+  list-style: none;
+  font-size: 18;
+  padding: 8px;
+}
+
+#recon-script {
+  margin: 45px;
+}
+.file-list > li {
+  margin: 15px;
+  font-size: 18px;
+  list-style: none;
+  color: black;
+}
+
+/*.file-list > a {
+  color: black;
+}
+*/
+
+.file-list > li > a {
+  color: #ff7800;
+  text-decoration: none;
+}
+
+.file-list > li > a::before {
+  content: "›";
+  padding: 20px;
+}
+
+#sticky-header {
+	padding: 14px;
+	background: #00546a;
+}
+
+#sticky-header > a {
+	text-decoration: none;
+	color: #ff7800;
+	font-family: monospace;
+	font-size: 15px;
+}
