@@ -11,7 +11,7 @@ h2 {
   color: #c85400;
 }
 
-a:hover {
+#sticky-header > a:hover {
 	color: #ff5f5f;
 }
 #file-list > li {
