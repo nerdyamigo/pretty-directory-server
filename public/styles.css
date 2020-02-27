@@ -10,6 +10,10 @@ h2 {
   font-family: monospace;
   color: #c85400;
 }
+
+a:hover {
+	color: #ff5f5f;
+}
 #file-list > li {
   list-style: none;
   font-size: 18;
@@ -52,3 +56,4 @@ h2 {
 	font-family: monospace;
 	font-size: 15px;
 }
+
