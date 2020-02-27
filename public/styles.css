@@ -57,3 +57,16 @@ a:hover {
 	font-size: 15px;
 }
 
+/* we need the shadow to look more 1337 */
+
+#code-block {
+  margin: 25px;
+  padding: 2%;
+  box-shadow: 10px 5px 5px black;
+  overflow-wrap: normal;
+}
+/* this is to style the code block - removes the run on code when it overflows */
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
