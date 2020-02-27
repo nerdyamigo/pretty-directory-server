@@ -48,6 +48,8 @@ a:hover {
 #sticky-header {
 	padding: 14px;
 	background: #00546a;
+	border-bottom-color: #005e77;
+	border-bottom-style: solid;
 }
 
 #sticky-header > a {
